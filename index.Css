@@ -1,6 +1,5 @@
 body{
   font-family: 'Times New Roman', Times, serif;
-  
 }
 
 
@@ -23,21 +22,25 @@ header {
   background-color: #c9c1f7; 
   text-align: center;
   font-size: 26px;
+  font-weight: bold;
 }
 
 .left {
   grid-area: left;
-  background-color: #aaaaaa; 
+  background-color: #eeecec; 
   margin-left: 20px;
+  font-size: 15px;
 }
 
 .right {
   grid-area: right;
-  background-color: #aaaaaa; 
+  background-color: #ececec; 
   margin-right: 20px;
+  font-size: 10px;
 }
 
 footer {
   grid-area: footer;
-  background-color: #aaaaaa; 
+  background-color: #b18f8f; 
+  
 }
